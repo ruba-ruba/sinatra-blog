@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'bundler'
+require 'pry'
 
 Bundler.require
 
