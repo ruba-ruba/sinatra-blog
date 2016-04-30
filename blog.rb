@@ -1,6 +1,7 @@
 require 'sinatra'
 
 module Blog
-  class Application < Sinatra::Base
+  class Application < Sinatra::Application
+    include Blog::Router
   end
 end
