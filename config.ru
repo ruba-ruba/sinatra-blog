@@ -15,4 +15,14 @@ require_all "./app"
 require_all "./config"
 require_all "./db"
 
+
+
+ActiveRecord::Base.establish_connection(
+  :adapter  => "mysql2",
+  :host     => "localhost",
+  :username => "root",
+  :password => "",
+  :database => "sinatra_blog_development"
+)
+
 run Blog::Application

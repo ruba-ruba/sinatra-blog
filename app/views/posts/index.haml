@@ -1,0 +1,7 @@
+%h4 views/posts.haml
+
+%div
+  - @posts.each do |post|
+    = post.title
+    %br
+    = post.body

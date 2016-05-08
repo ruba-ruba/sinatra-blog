@@ -1,5 +1,6 @@
 require 'bundler/setup'
 require 'active_record'
+require 'mysql2'
 require 'pry'
 
 include ActiveRecord::Tasks
