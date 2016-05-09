@@ -1,9 +1,10 @@
 GIT
   remote: git://github.com/sinatra/sinatra.git
-  revision: 84e76b839b8e356e36397c5395db0fa39a6d5642
+  revision: 1e75f50aa54e75c12532c07c0ddc1c6d19a5e2b5
   specs:
     sinatra (2.0.0.pre.alpha)
-      rack (= 2.0.0.alpha)
+      mustermann (~> 0.4)
+      rack (= 2.0.0.rc1)
       rack-protection (~> 1.5)
       tilt (~> 2.0)
 
@@ -34,12 +35,14 @@ GEM
     json (1.8.3)
     method_source (0.8.2)
     minitest (5.8.4)
+    mustermann (0.4.0)
+      tool (~> 0.2)
     mysql2 (0.4.4)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rack (2.0.0.alpha)
+    rack (2.0.0.rc1)
       json
     rack-protection (1.5.3)
       rack
@@ -55,6 +58,7 @@ GEM
       rack (>= 1.0.0)
     thread_safe (0.3.5)
     tilt (2.0.2)
+    tool (0.2.3)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
 
